@@ -3,7 +3,7 @@
 
 constexpr bool Console = false; // if the console window should be created
 constexpr StarfallURLSet URLSet = Default;
-constexpr inline FString Backend = L"http://127.0.0.1:3551"; // your backend url
+constexpr inline FString Backend = L"http://26.11.142.128:443"; // your backend url
 constexpr bool bHasPushWidget = false; // enable if you have gs closing after a couple seconds of listening. breaks closing the client (so don't build with this enabled for usage in a launcher.)
 
 // misc options, don't change unless you know what you're doing
